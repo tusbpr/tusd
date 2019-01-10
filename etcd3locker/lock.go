@@ -6,7 +6,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/tus/tusd"
+	"github.com/tusbpr/tusd"
 	"go.etcd.io/etcd/clientv3/concurrency"
 )
 

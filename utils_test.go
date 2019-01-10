@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/tus/tusd"
+	"github.com/tusbpr/tusd"
 )
 
 //go:generate mockgen -package tusd_test -source utils_test.go -aux_files tusd=datastore.go -destination=handler_mock_test.go

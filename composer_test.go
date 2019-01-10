@@ -1,7 +1,7 @@
 package tusd_test
 
 import (
-	"github.com/tus/tusd"
+	"github.com/tusbpr/tusd"
 	"github.com/tusbpr/tusd/filestore"
 	"github.com/tusbpr/tusd/limitedstore"
 	"github.com/tusbpr/tusd/memorylocker"

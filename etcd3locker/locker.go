@@ -47,7 +47,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tus/tusd"
+	"github.com/tusbpr/tusd"
 	etcd3 "go.etcd.io/etcd/clientv3"
 	"go.etcd.io/etcd/clientv3/concurrency"
 )

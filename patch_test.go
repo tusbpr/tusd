@@ -12,7 +12,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/tus/tusd"
+	. "github.com/tusbpr/tusd"
 )
 
 func TestPatch(t *testing.T) {

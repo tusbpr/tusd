@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/tus/tusd"
+	"github.com/tusbpr/tusd"
 )
 
 func Serve() {

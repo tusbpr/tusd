@@ -154,7 +154,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/tus/tusd"
+	"github.com/tusbpr/tusd"
 	"github.com/tusbpr/tusd/filestore"
 )
 

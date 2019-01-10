@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tus/tusd"
+	"github.com/tusbpr/tusd"
 )
 
 // Test interface implementation of Filestore

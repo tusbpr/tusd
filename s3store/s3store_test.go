@@ -12,7 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/tus/tusd"
+	"github.com/tusbpr/tusd"
 )
 
 //go:generate mockgen -destination=./s3store_mock_test.go -package=s3store github.com/tusbpr/tusd/s3store S3API

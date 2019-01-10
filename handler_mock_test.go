@@ -5,7 +5,7 @@ package tusd_test
 
 import (
 	gomock "github.com/golang/mock/gomock"
-	tusd "github.com/tus/tusd"
+	tusd "github.com/tusbpr/tusd"
 	io "io"
 )
 
