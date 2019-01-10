@@ -12,10 +12,10 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/tus/tusd"
-	"github.com/tus/tusd/gcsstore"
+	"github.com/tusbpr/tusd/gcsstore"
 )
 
-// go:generate mockgen -destination=./gcsstore_mock_test.go -package=gcsstore_test github.com/tus/tusd/gcsstore GCSReader,GCSAPI
+// go:generate mockgen -destination=./gcsstore_mock_test.go -package=gcsstore_test github.com/tusbpr/tusd/gcsstore GCSReader,GCSAPI
 
 const mockID = "123456789abcdefghijklmnopqrstuvwxyz"
 const mockBucket = "bucket"

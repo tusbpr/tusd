@@ -99,7 +99,7 @@ $ tusd --hooks-http http://localhost:8081/write
 
 Note that the URL must include the `http://` prefix!
 
-In case of a blocking hook, HTTP Status Code 400 or greater tells tusd to reject the request (in the same way as non-zero exit code for File Hooks). See also [issue #170](https://github.com/tus/tusd/issues/170) regarding further improvements.
+In case of a blocking hook, HTTP Status Code 400 or greater tells tusd to reject the request (in the same way as non-zero exit code for File Hooks). See also [issue #170](https://github.com/tusbpr/tusd/issues/170) regarding further improvements.
 
 
 ### Usage

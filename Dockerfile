@@ -1,7 +1,7 @@
 FROM golang:1.7-alpine AS builder
 
 # Copy in the git repo from the build context
-COPY . /go/src/github.com/tus/tusd/
+COPY . /go/src/github.com/tusbpr/tusd/
 
 # Create app directory
 WORKDIR /go/src/github.com/tus/tusd
@@ -12,7 +12,7 @@ RUN apk add --no-cache \
     && version="$(git tag -l --points-at HEAD)" \
     && commit=$(git log --format="%H" -n 1) \
     && GOOS=linux GOARCH=amd64 go build \
-        -ldflags="-X github.com/tus/tusd/cmd/tusd/cli.VersionName=${version} -X github.com/tus/tusd/cmd/tusd/cli.GitCommit=${commit} -X 'github.com/tus/tusd/cmd/tusd/cli.BuildDate=$(date --utc)'" \
+        -ldflags="-X github.com/tusbpr/tusd/cmd/tusd/cli.VersionName=${version} -X github.com/tusbpr/tusd/cmd/tusd/cli.GitCommit=${commit} -X 'github.com/tusbpr/tusd/cmd/tusd/cli.BuildDate=$(date --utc)'" \
         -o "/go/bin/tusd" ./cmd/tusd/main.go \
     && rm -r /go/src/* \
     && apk del git

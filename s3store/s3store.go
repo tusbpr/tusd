@@ -81,7 +81,7 @@ import (
 	"sync"
 
 	"github.com/tus/tusd"
-	"github.com/tus/tusd/uid"
+	"github.com/tusbpr/tusd/uid"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
