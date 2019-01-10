@@ -2,6 +2,7 @@ package tusd
 
 import (
 	"encoding/base64"
+	"encoding/json"
 	"errors"
 	"io"
 	"log"
@@ -766,9 +767,13 @@ func (handler *UnroutedHandler) sendError(w http.ResponseWriter, r *http.Request
 		statusErr = NewHTTPError(err, http.StatusInternalServerError)
 	}
 
-	reason := err.Error() + "\n"
+	errMap := map[string] string {
+		"err" : err.Error(),
+	}
+
+	reason,_ := json.Marshal(errMap)
 	if r.Method == "HEAD" {
-		reason = ""
+		reason,_ = json.Marshal(map[string]string{})
 	}
 
 	w.Header().Set("Content-Type", "text/plain; charset=utf-8")

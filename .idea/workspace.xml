@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d212a46a-a6cf-4ea0-8c57-4e8181d8ee22" name="Default Changelist" comment="" />
+    <list default="true" id="d212a46a-a6cf-4ea0-8c57-4e8181d8ee22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,23 +13,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/unrouted_handler.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="1992">
+              <caret line="331" lean-forward="true" selection-start-line="331" selection-end-line="331" />
+              <folding>
+                <element signature="e#14#154#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;github.com/tus/tusd&quot;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;github.com/tusbpr/tusd&quot;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>G:\goTest\tusd</dir>
+    </dirStrings>
+  </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="227" />
-    <option name="y" value="41" />
+    <option name="x" value="67" />
+    <option name="y" value="2" />
     <option name="width" value="1943" />
     <option name="height" value="1103" />
   </component>
@@ -43,6 +59,11 @@
             <path>
               <item name="tusd" type="b2602c69:ProjectViewProjectNode" />
               <item name="tusd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tusd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tusd" type="462c0819:PsiDirectoryNode" />
+              <item name="filestore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tusd" type="b2602c69:ProjectViewProjectNode" />
@@ -76,9 +97,10 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="617" y="74" width="1554" height="882" extended-state="0" />
+    <frame x="-264" y="306" width="1554" height="882" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25334224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25668448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -200,9 +222,6 @@
         <state relative-caret-position="-2700" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filestore/filestore.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/cloud.google.com/go/compute/metadata/metadata.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -306,16 +325,6 @@
     <entry file="file://$PROJECT_DIR$/unrouted_handler.go.back">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/unrouted_handler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -323,6 +332,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filestore/filestore.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#968#1134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unrouted_handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1992">
+          <caret line="331" lean-forward="true" selection-start-line="331" selection-end-line="331" />
+          <folding>
+            <element signature="e#14#154#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
